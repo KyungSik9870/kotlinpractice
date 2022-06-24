@@ -3,7 +3,7 @@ import org.jetbrains.annotations.NotNull;
 public class Person {
 
 	private final String name;
-	private final int age;
+	private final Integer age;
 
 	public Person(String name, int age) {
 		this.name = name;
@@ -15,7 +15,7 @@ public class Person {
 		return name;
 	}
 
-	public int getAge() {
+	public Integer getAge() {
 		return age;
 	}
 }

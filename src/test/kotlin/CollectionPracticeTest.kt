@@ -5,7 +5,4 @@ internal class CollectionPracticeTest
 
 @Test
 fun test() {
-    val practice = CollectionPractice()
-    val result = practice.joinToString(listOf(1,2,3), ";", "(", ")")
-    print(result)
 }
