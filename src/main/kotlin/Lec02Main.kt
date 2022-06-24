@@ -9,7 +9,7 @@ fun main() {
     // elvis 연산자 : 앞의 연산 결과가 null 이면 뒤의 값을 사용
     println(str?.length ?: 0)
 
-    val person = Person("name")
+    val person = Person("name", 10)
     // nullable 인지 아닌지 모른다면 그것을 '플랫폼 타입' 이라 한다.
     // 이 떄는 런타임시 NPE 가 발생할 수 있다.
     println(startsWithA(person.name))
